@@ -1,0 +1,1 @@
+So far it is a basic game that allows for two people to play together with a simple but pleasing UI and no errors so far.
