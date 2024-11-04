@@ -143,4 +143,10 @@ returnToMenu_button.addEventListener('click', () => {
     code_input.value = "";
     letters_guessed_elem.innerText = "Letters guessed wrong: ";
     guesses_left_elem.innerText = `Guesses left: ${guesses}`;
+    parts.forEach((part) => {
+        part.style.opacity = "1";
+    });
+    letters_elems.forEach(letter_elem => {
+        letter_elem.disabled = false;
+    });
 });
