@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #787878;
+    color: #333333;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+button {
+    border: none;
+    background-color: #6e4747;
+    color: white;
+    padding: 6px 10px 10px 10px;
+    border-radius: 15px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 17px;
+}
+button:hover {
+    cursor: pointer;
+}
+button:disabled {
+    opacity: 0.5;
+}
+
+
+input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #cfcfcf;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 20px;
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+
+
+p {
+    font-size: 25px;
+}
+
+
+
+
+.main {
+    margin-bottom: 20px;
+}
+
+
+.title h1 {
+    font-size: 60px;
+    padding: 0;
+    margin: 20px;
+}
+
+.create-game {
+    display: none;
+}
+
+.join-game {
+    display: none;
+}
+
+
+#start-game {
+    display: none;
+}
+
+
+.waiting-for-host {
+    display: none;
+}
+
+.letters {
+    display: none;
+}
+
+.game {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+
+.winner {
+    display: none;
+}
+
+.loser {
+    display: none;
+}
+
+.end_game {
+    display: none;
+}
+
+.get-item {
+    display: none;
+}
+
+
+
+#letters_guessed {
+    /* color: green; */
+    color: #333333;
+}
+
+
+.correctly_guessed {
+    /* color: red; */
+    color: #FF7F50
+}
+
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: #FF7F50;
+}
